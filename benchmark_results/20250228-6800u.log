@@ -1,0 +1,306 @@
+1740741362151 [cmake-re+HFC] bench start
+1740741362163 [cmake-re+HFC] run started 1
+1740741362167 [cmake-re+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740741625638 [cmake-re+HFC] - Release configure took 263465ms
+1740741625643 [cmake-re+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740741765073 [cmake-re+HFC] - Release build took 139430ms
+1740741765079 [cmake-re+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740741788142 [cmake-re+HFC] - Debug configure took 23064ms
+1740741788147 [cmake-re+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740741939807 [cmake-re+HFC] - Debug build took 151660ms
+1740741939809 [cmake-re+HFC] - cleaning up
+1740741939836 [cmake-re+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742195375 [cmake-re+HFC] - Release configure took 255534ms
+1740742195379 [cmake-re+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740742341548 [cmake-re+HFC] - Release build took 146168ms
+1740742341553 [cmake-re+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742367475 [cmake-re+HFC] - Debug configure took 25923ms
+1740742367480 [cmake-re+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740742526115 [cmake-re+HFC] - Debug build took 158635ms
+1740742526120 [cmake-re+HFC] - run took 1163952ms
+1740742526123 [cmake-re+HFC] - cleaning up
+1740742526152 [cmake-re+HFC] run started 2
+1740742526157 [cmake-re+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742537897 [cmake-re+HFC] - Release configure took 11736ms
+1740742537902 [cmake-re+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740742541964 [cmake-re+HFC] - Release build took 4061ms
+1740742541972 [cmake-re+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742554682 [cmake-re+HFC] - Debug configure took 12711ms
+1740742554688 [cmake-re+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740742558649 [cmake-re+HFC] - Debug build took 3962ms
+1740742558652 [cmake-re+HFC] - cleaning up
+1740742558682 [cmake-re+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742570075 [cmake-re+HFC] - Release configure took 11387ms
+1740742570081 [cmake-re+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740742573928 [cmake-re+HFC] - Release build took 3848ms
+1740742573934 [cmake-re+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742585898 [cmake-re+HFC] - Debug configure took 11963ms
+1740742585904 [cmake-re+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740742589954 [cmake-re+HFC] - Debug build took 4051ms
+1740742589959 [cmake-re+HFC] - run took 63803ms
+1740742589962 [cmake-re+HFC] - cleaning up
+1740742589984 [cmake-re+HFC] run started 3
+1740742589990 [cmake-re+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742601639 [cmake-re+HFC] - Release configure took 11645ms
+1740742601644 [cmake-re+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740742605495 [cmake-re+HFC] - Release build took 3851ms
+1740742605499 [cmake-re+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742617817 [cmake-re+HFC] - Debug configure took 12317ms
+1740742617822 [cmake-re+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740742621849 [cmake-re+HFC] - Debug build took 4026ms
+1740742621852 [cmake-re+HFC] - cleaning up
+1740742621881 [cmake-re+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742635543 [cmake-re+HFC] - Release configure took 13657ms
+1740742635549 [cmake-re+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740742640057 [cmake-re+HFC] - Release build took 4509ms
+1740742640063 [cmake-re+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742652103 [cmake-re+HFC] - Debug configure took 12041ms
+1740742652108 [cmake-re+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740742656111 [cmake-re+HFC] - Debug build took 4003ms
+1740742656116 [cmake-re+HFC] - run took 66127ms
+1740742656119 [cmake-re+HFC] - cleaning up
+1740742656142 [cmake-re+HFC] run started 4
+1740742656147 [cmake-re+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742667393 [cmake-re+HFC] - Release configure took 11241ms
+1740742667398 [cmake-re+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740742671166 [cmake-re+HFC] - Release build took 3768ms
+1740742671170 [cmake-re+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742682771 [cmake-re+HFC] - Debug configure took 11601ms
+1740742682776 [cmake-re+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740742686531 [cmake-re+HFC] - Debug build took 3754ms
+1740742686534 [cmake-re+HFC] - cleaning up
+1740742686559 [cmake-re+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742698363 [cmake-re+HFC] - Release configure took 11798ms
+1740742698368 [cmake-re+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740742702162 [cmake-re+HFC] - Release build took 3794ms
+1740742702167 [cmake-re+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742714365 [cmake-re+HFC] - Debug configure took 12198ms
+1740742714370 [cmake-re+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740742718180 [cmake-re+HFC] - Debug build took 3810ms
+1740742718186 [cmake-re+HFC] - run took 62038ms
+1740742718188 [cmake-re+HFC] - cleaning up
+1740742718215 [cmake-re+HFC] run started 5
+1740742718220 [cmake-re+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742729835 [cmake-re+HFC] - Release configure took 11610ms
+1740742729841 [cmake-re+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740742733554 [cmake-re+HFC] - Release build took 3713ms
+1740742733558 [cmake-re+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742745056 [cmake-re+HFC] - Debug configure took 11498ms
+1740742745060 [cmake-re+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740742749148 [cmake-re+HFC] - Debug build took 4087ms
+1740742749151 [cmake-re+HFC] - cleaning up
+1740742749179 [cmake-re+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742760587 [cmake-re+HFC] - Release configure took 11403ms
+1740742760591 [cmake-re+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740742764362 [cmake-re+HFC] - Release build took 3771ms
+1740742764368 [cmake-re+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache)
+1740742776244 [cmake-re+HFC] - Debug configure took 11877ms
+1740742776249 [cmake-re+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740742780328 [cmake-re+HFC] - Debug build took 4079ms
+1740742780333 [cmake-re+HFC] - run took 62112ms
+1740742780336 [cmake-re+HFC] - cleaning up
+1740742780361 [cmake-re+HFC] bench end - took 1418210ms
+1740743854152 [cmake+HFC] bench start
+1740743854165 [cmake+HFC] run started 1
+1740743854170 [cmake+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740744099448 [cmake+HFC] - Release configure took 245274ms
+1740744099453 [cmake+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740744203238 [cmake+HFC] - Release build took 103785ms
+1740744203243 [cmake+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740744214244 [cmake+HFC] - Debug configure took 11001ms
+1740744214248 [cmake+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740744294628 [cmake+HFC] - Debug build took 80380ms
+1740744294631 [cmake+HFC] - cleaning up
+1740744295865 [cmake+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740744541833 [cmake+HFC] - Release configure took 245962ms
+1740744541838 [cmake+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740744643539 [cmake+HFC] - Release build took 101702ms
+1740744643544 [cmake+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740744654348 [cmake+HFC] - Debug configure took 10803ms
+1740744654353 [cmake+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740744738805 [cmake+HFC] - Debug build took 84451ms
+1740744738809 [cmake+HFC] - run took 884640ms
+1740744738812 [cmake+HFC] - cleaning up
+1740744740050 [cmake+HFC] run started 2
+1740744740055 [cmake+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740744749676 [cmake+HFC] - Release configure took 9615ms
+1740744749681 [cmake+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740744854048 [cmake+HFC] - Release build took 104367ms
+1740744854053 [cmake+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740744862265 [cmake+HFC] - Debug configure took 8212ms
+1740744862270 [cmake+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740744942381 [cmake+HFC] - Debug build took 80111ms
+1740744942383 [cmake+HFC] - cleaning up
+1740744943627 [cmake+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740744952282 [cmake+HFC] - Release configure took 8649ms
+1740744952287 [cmake+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740745055169 [cmake+HFC] - Release build took 102882ms
+1740745055173 [cmake+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740745063532 [cmake+HFC] - Debug configure took 8359ms
+1740745063536 [cmake+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740745144913 [cmake+HFC] - Debug build took 81377ms
+1740745144918 [cmake+HFC] - run took 404862ms
+1740745144920 [cmake+HFC] - cleaning up
+1740745146185 [cmake+HFC] run started 3
+1740745146192 [cmake+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740745154582 [cmake+HFC] - Release configure took 8384ms
+1740745154587 [cmake+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740745261070 [cmake+HFC] - Release build took 106482ms
+1740745261074 [cmake+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740745269438 [cmake+HFC] - Debug configure took 8363ms
+1740745269443 [cmake+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740745353071 [cmake+HFC] - Debug build took 83628ms
+1740745353074 [cmake+HFC] - cleaning up
+1740745354316 [cmake+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740745363015 [cmake+HFC] - Release configure took 8694ms
+1740745363019 [cmake+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740745466436 [cmake+HFC] - Release build took 103417ms
+1740745466441 [cmake+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740745474941 [cmake+HFC] - Debug configure took 8500ms
+1740745474946 [cmake+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740745556236 [cmake+HFC] - Debug build took 81289ms
+1740745556241 [cmake+HFC] - run took 410049ms
+1740745556243 [cmake+HFC] - cleaning up
+1740745557476 [cmake+HFC] run started 4
+1740745557482 [cmake+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740745566415 [cmake+HFC] - Release configure took 8929ms
+1740745566420 [cmake+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740745671389 [cmake+HFC] - Release build took 104969ms
+1740745671394 [cmake+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740745679679 [cmake+HFC] - Debug configure took 8285ms
+1740745679684 [cmake+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740745759359 [cmake+HFC] - Debug build took 79675ms
+1740745759362 [cmake+HFC] - cleaning up
+1740745760536 [cmake+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740745769344 [cmake+HFC] - Release configure took 8804ms
+1740745769350 [cmake+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740745872262 [cmake+HFC] - Release build took 102912ms
+1740745872267 [cmake+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740745880575 [cmake+HFC] - Debug configure took 8309ms
+1740745880580 [cmake+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740745961493 [cmake+HFC] - Debug build took 80913ms
+1740745961498 [cmake+HFC] - run took 404017ms
+1740745961501 [cmake+HFC] - cleaning up
+1740745962782 [cmake+HFC] run started 5
+1740745962787 [cmake+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740745971318 [cmake+HFC] - Release configure took 8525ms
+1740745971322 [cmake+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740746074904 [cmake+HFC] - Release build took 103582ms
+1740746074909 [cmake+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740746083097 [cmake+HFC] - Debug configure took 8189ms
+1740746083102 [cmake+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740746163005 [cmake+HFC] - Debug build took 79903ms
+1740746163007 [cmake+HFC] - cleaning up
+1740746164253 [cmake+HFC] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740746172880 [cmake+HFC] - Release configure took 8623ms
+1740746172885 [cmake+HFC] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740746276854 [cmake+HFC] - Release build took 103969ms
+1740746276858 [cmake+HFC] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=ON -DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache)
+1740746285239 [cmake+HFC] - Debug configure took 8381ms
+1740746285244 [cmake+HFC] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740746364561 [cmake+HFC] - Debug build took 79316ms
+1740746364565 [cmake+HFC] - run took 401778ms
+1740746364568 [cmake+HFC] - cleaning up
+1740746365826 [cmake+HFC] bench end - took 2511676ms
+1740746394113 [cmake+fetchcontent] bench start
+1740746394121 [cmake+fetchcontent] run started 1
+1740746394128 [cmake+fetchcontent] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=OFF )
+1740746636378 [cmake+fetchcontent] - Release configure took 242244ms
+1740746636383 [cmake+fetchcontent] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740746738975 [cmake+fetchcontent] - Release build took 102592ms
+1740746738980 [cmake+fetchcontent] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=OFF )
+1740746977866 [cmake+fetchcontent] - Debug configure took 238886ms
+1740746977871 [cmake+fetchcontent] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740747054690 [cmake+fetchcontent] - Debug build took 76819ms
+1740747054692 [cmake+fetchcontent] - cleaning up
+1740747059859 [cmake+fetchcontent] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=OFF )
+1740747299554 [cmake+fetchcontent] - Release configure took 239690ms
+1740747299559 [cmake+fetchcontent] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740747401253 [cmake+fetchcontent] - Release build took 101693ms
+1740747401257 [cmake+fetchcontent] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=OFF )
+1740747642130 [cmake+fetchcontent] - Debug configure took 240873ms
+1740747642135 [cmake+fetchcontent] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740747717724 [cmake+fetchcontent] - Debug build took 75588ms
+1740747717728 [cmake+fetchcontent] - run took 1323602ms
+1740747717731 [cmake+fetchcontent] - cleaning up
+1740747722816 [cmake+fetchcontent] run started 2
+1740747722821 [cmake+fetchcontent] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=OFF )
+1740747965081 [cmake+fetchcontent] - Release configure took 242254ms
+1740747965085 [cmake+fetchcontent] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740748068303 [cmake+fetchcontent] - Release build took 103218ms
+1740748068308 [cmake+fetchcontent] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=OFF )
+1740748313978 [cmake+fetchcontent] - Debug configure took 245670ms
+1740748313984 [cmake+fetchcontent] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740748398432 [cmake+fetchcontent] - Debug build took 84449ms
+1740748398434 [cmake+fetchcontent] - cleaning up
+1740748403749 [cmake+fetchcontent] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=OFF )
+1740748654941 [cmake+fetchcontent] - Release configure took 251187ms
+1740748654946 [cmake+fetchcontent] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740748766216 [cmake+fetchcontent] - Release build took 111269ms
+1740748766222 [cmake+fetchcontent] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=OFF )
+1740749011792 [cmake+fetchcontent] - Debug configure took 245571ms
+1740749011798 [cmake+fetchcontent] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740749097570 [cmake+fetchcontent] - Debug build took 85772ms
+1740749097576 [cmake+fetchcontent] - run took 1374754ms
+1740749097578 [cmake+fetchcontent] - cleaning up
+1740749103205 [cmake+fetchcontent] run started 3
+1740749103212 [cmake+fetchcontent] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=OFF )
+1740749353774 [cmake+fetchcontent] - Release configure took 250557ms
+1740749353779 [cmake+fetchcontent] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740749466528 [cmake+fetchcontent] - Release build took 112749ms
+1740749466532 [cmake+fetchcontent] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=OFF )
+1740749712927 [cmake+fetchcontent] - Debug configure took 246394ms
+1740749712932 [cmake+fetchcontent] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740749789973 [cmake+fetchcontent] - Debug build took 77041ms
+1740749789976 [cmake+fetchcontent] - cleaning up
+1740749795149 [cmake+fetchcontent] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=OFF )
+1740750050868 [cmake+fetchcontent] - Release configure took 255715ms
+1740750050873 [cmake+fetchcontent] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740750161755 [cmake+fetchcontent] - Release build took 110882ms
+1740750161760 [cmake+fetchcontent] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=OFF )
+1740750410294 [cmake+fetchcontent] - Debug configure took 248533ms
+1740750410298 [cmake+fetchcontent] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740750488197 [cmake+fetchcontent] - Debug build took 77899ms
+1740750488202 [cmake+fetchcontent] - run took 1384992ms
+1740750488204 [cmake+fetchcontent] - cleaning up
+1740750493443 [cmake+fetchcontent] run started 4
+1740750493449 [cmake+fetchcontent] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=OFF )
+1740750743618 [cmake+fetchcontent] - Release configure took 250163ms
+1740750743623 [cmake+fetchcontent] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740750850791 [cmake+fetchcontent] - Release build took 107168ms
+1740750850795 [cmake+fetchcontent] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=OFF )
+1740751097772 [cmake+fetchcontent] - Debug configure took 246977ms
+1740751097777 [cmake+fetchcontent] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740751176021 [cmake+fetchcontent] - Debug build took 78244ms
+1740751176024 [cmake+fetchcontent] - cleaning up
+1740751181134 [cmake+fetchcontent] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=OFF )
+1740751435619 [cmake+fetchcontent] - Release configure took 254480ms
+1740751435623 [cmake+fetchcontent] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740751537414 [cmake+fetchcontent] - Release build took 101790ms
+1740751537418 [cmake+fetchcontent] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=OFF )
+1740751793100 [cmake+fetchcontent] - Debug configure took 255682ms
+1740751793105 [cmake+fetchcontent] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740751870977 [cmake+fetchcontent] - Debug build took 77871ms
+1740751870982 [cmake+fetchcontent] - run took 1377534ms
+1740751870984 [cmake+fetchcontent] - cleaning up
+1740751876346 [cmake+fetchcontent] run started 5
+1740751876352 [cmake+fetchcontent] - Release configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=OFF )
+1740752126084 [cmake+fetchcontent] - Release configure took 249727ms
+1740752126089 [cmake+fetchcontent] - Release build start (-DBENCH_BOOST_VERSION=1.84)
+1740752226366 [cmake+fetchcontent] - Release build took 100276ms
+1740752226370 [cmake+fetchcontent] - Debug configure start (-DBENCH_BOOST_VERSION=1.84 -DBENCH_HFC=OFF )
+1740752471154 [cmake+fetchcontent] - Debug configure took 244784ms
+1740752471159 [cmake+fetchcontent] - Debug build start (-DBENCH_BOOST_VERSION=1.84)
+1740752548621 [cmake+fetchcontent] - Debug build took 77461ms
+1740752548624 [cmake+fetchcontent] - cleaning up
+1740752553869 [cmake+fetchcontent] - Release configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=OFF )
+1740752806329 [cmake+fetchcontent] - Release configure took 252455ms
+1740752806333 [cmake+fetchcontent] - Release build start (-DBENCH_BOOST_VERSION=1.85)
+1740752908295 [cmake+fetchcontent] - Release build took 101962ms
+1740752908300 [cmake+fetchcontent] - Debug configure start (-DBENCH_BOOST_VERSION=1.85 -DBENCH_HFC=OFF )
+1740753163040 [cmake+fetchcontent] - Debug configure took 254740ms
+1740753163046 [cmake+fetchcontent] - Debug build start (-DBENCH_BOOST_VERSION=1.85)
+1740753240696 [cmake+fetchcontent] - Debug build took 77651ms
+1740753240701 [cmake+fetchcontent] - run took 1364350ms
+1740753240704 [cmake+fetchcontent] - cleaning up
+1740753245839 [cmake+fetchcontent] bench end - took 6851726ms

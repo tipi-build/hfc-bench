@@ -1,0 +1,3 @@
+thirdparty/cache/**
+build/**
+bench_log**

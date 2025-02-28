@@ -123,6 +123,6 @@ echo "# appened by run_bench.sh / $(od -x /dev/urandom | head -1 | awk '{OFS="-"
 
 # the actual benchmark runs... some of those take a good while... as in I'm expecting hours for all of this to run through .... ordered by quickest to slowest (based on expectations)
 #         $cmake_bin    $title                $build_folder           $hfc_on_flag        $hfc_source_cache_flag                                          $use_install_cache      $cmake_re_flags
-#bench_run "cmake-re"    "cmake-re+HFC"        "cmake_re_hfc"          "-DBENCH_HFC=ON"    "-DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache"        "false"                 "--host";
-#bench_run "cmake"       "cmake+HFC"           "hfc"                   "-DBENCH_HFC=ON"    "-DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache"           "false"                 "";
+bench_run "cmake-re"    "cmake-re+HFC"        "cmake_re_hfc"          "-DBENCH_HFC=ON"    "-DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_re_cache"        "false"                 "--host";
+bench_run "cmake"       "cmake+HFC"           "hfc"                   "-DBENCH_HFC=ON"    "-DBENCH_HFC_LOCAL_SOURCE_CACHE=/tmp/hfc_cmake_cache"           "false"                 "";
 bench_run "cmake"       "cmake+fetchcontent"  "classic_fetchContent"  "-DBENCH_HFC=OFF"   ""                                                              "false"                 "";

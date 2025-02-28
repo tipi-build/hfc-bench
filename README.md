@@ -1,11 +1,11 @@
 HFC Benchmark project
 =====================
 
-Reference benchmark project for [Hermetic FetchContent](https://github.com/tipi-build/hfc). Compiles a really simple project that dependends on the Boost library and does simulate repeated clean builds agains two build configurations (`Debug` and `Release` builds) while switching the Boost version in between builds (e.g. simulates upgrading from Boost v1.84 to v1.85)
+Reference benchmark project for [Hermetic FetchContent](https://github.com/tipi-build/hfc). Compiles a really simple project that depends on the Boost library and does simulate repeated clean builds against 2 build configurations (`Debug` and `Release` builds) while switching the Boost version in between builds (e.g. simulates upgrading from Boost v1.84 to v1.85).
 
 A log file containing the per run statistics is created in the `bench_log_<timestamp>.txt` file. Each of the tree scenarios (`cmake + fetchContent`, `cmake + Hermetic FetchContent` and `cmake-re + Hermetic FetchContent`) of this comparative benchmark gets its own section of five consecutive runs of the process described (`Debug build Boost 1.84` -> `Release build Boost 1.84` -> `Debug build Boost 1.85` -> `Release build Boost 1.85`). The build folders are being wiped out between reconfiguration.
 
-To ensure fair comparision cmake-re's shared cache for this project is invalidated and wiped before the benchmark run in order to ensure that the Boost dependency has to be built (no initial cache benchmarking vs. hot cache which would be much quicker, yielding a first run that would roughly be as fast any of the subsequent runs).
+To ensure fair comparison cmake-re's shared cache for this project is invalidated and wiped before the benchmark run in order to ensure that the Boost dependency has to be built (no initial cache benchmarking vs. hot cache which would be much quicker, yielding a first run that would roughly be as fast any of the subsequent runs).
 
 Results:
 --------
@@ -55,8 +55,8 @@ To run this benchmark:
 ----------------------
 
 1. Make sure you are connected to your tipi account (run `tipi connect`)
-2. set the environment variable `TIPI_VAULT_PASSPHRASE` to contain your tipi vault passphrase - it will be forwarded to the container to enable L1 cache storage
-3. run the following commands:
+2. Set the environment variable `TIPI_VAULT_PASSPHRASE` to contain your tipi vault passphrase - it will be forwarded to the container to enable L1 cache storage
+3. Run the following commands:
 
 ```bash
 docker pull tipibuild/tipi-ubuntu:latest

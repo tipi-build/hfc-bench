@@ -7,11 +7,51 @@ A log file containing the per run statistics is created in the `bench_log_<times
 
 To ensure fair comparison cmake-re's shared cache for this project is invalidated and wiped before the benchmark run in order to ensure that the Boost dependency has to be built (no initial cache benchmarking vs. hot cache which would be much quicker, yielding a first run that would roughly be as fast any of the subsequent runs).
 
-Results:
---------
+Results
+-------
 
 ![Benchmark Chart](assets/benchmark_chart.png)
 
+As can be seen, the build times are reduced by a factor of 10 to 21 once the caches (source cache for `cmake + Hermetic FetchContent` and the shared cmake-re L1 cache in the case of `cmake-re + Hermetic FetchContent`) are enabled.
+
+At the core these improvements can be achieved by evolving the following "only CMake FetchContent" `CMakeLists.txt` 
+
+```cmake
+FetchContent_Declare(
+  Boost
+  GIT_REPOSITORY https://github.com/boostorg/boost
+  GIT_TAG        "ad09f667e61e18f5c31590941e748ac38e5a81bf" # boost 1.85
+)
+
+set(BOOST_BUILD_TEST OFF CACHE BOOL "" FORCE)
+set(BOOST_ENABLE_PYTHON OFF CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(Boost)
+```
+
+to the [Hermetic FetchContent](https://github.com/tipi-build/hfc) enabled build which enables source caching at the project level:
+
+```cmake
+FetchContent_Declare(
+  Boost
+  GIT_REPOSITORY https://github.com/boostorg/boost
+  GIT_TAG        "ad09f667e61e18f5c31590941e748ac38e5a81bf" # boost 1.85
+)
+
+FetchContent_MakeHermetic(
+  Boost
+  HERMETIC_TOOLCHAIN_EXTENSION
+  [=[
+    set(BOOST_BUILD_TEST OFF CACHE BOOL "" FORCE)
+    set(BOOST_ENABLE_PYTHON OFF CACHE BOOL "" FORCE)
+  ]=]
+)
+
+HermeticFetchContent_MakeAvailableAtBuildTime(Boost)
+```
+
+
+Result Details
+--------------
 
 ### On AWS EC2 c7a.4xlarge
 

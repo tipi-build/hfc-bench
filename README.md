@@ -61,7 +61,11 @@ To run this benchmark:
 ```bash
 docker pull tipibuild/tipi-ubuntu:latest
 rm -rf build/
-docker run --rm -u`id -u`:`id -g` -v $PWD:$PWD -w $PWD -e TIPI_ACCESS_TOKEN=`cat /usr/local/share/.tipi/.access_token` -e  TIPI_REFRESH_TOKEN=`cat /usr/local/share/.tipi/.refresh_token` -e TIPI_VAULT_PASSPHRASE tipibuild/tipi-ubuntu:latest $PWD/run_bench.sh
+docker run --rm -u`id -u`:`id -g` -v $PWD:$PWD -w $PWD \
+  -e TIPI_ACCESS_TOKEN=`cat /usr/local/share/.tipi/.access_token` \
+  -e TIPI_REFRESH_TOKEN=`cat /usr/local/share/.tipi/.refresh_token` \
+  -e TIPI_VAULT_PASSPHRASE \
+  tipibuild/tipi-ubuntu:latest $PWD/run_bench.sh
 ```
 
 4. Wait and find the results in the `bench_log_<timestamp>.txt` log

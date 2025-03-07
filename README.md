@@ -1,5 +1,5 @@
-HFC Benchmark project
-=====================
+HFC Benchmark
+=============
 
 Reference benchmark project for [Hermetic FetchContent](https://github.com/tipi-build/hfc). Compiles a really simple project that depends on the Boost library and does simulate repeated clean builds against 2 build configurations (`Debug` and `Release` builds) while switching the Boost version in between builds (e.g. simulates upgrading from Boost v1.84 to v1.85).
 
